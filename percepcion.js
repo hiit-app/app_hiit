@@ -120,9 +120,9 @@ function dbError(e) {
  console.log("Error", e);
 }
 
-todo_bd_ingresa(fecha, localStorage.getItem("tipo_tp"), localStorage.getItem("ej"), series.length, 1, kg, 5);
-//setTimeout(location.reload(), 9000)
-alert("Finalizaste la serie");
+todo_bd_ingresa(fecha, localStorage.getItem("tipo_tp"), localStorage.getItem("ej"), series.length, (kg/0.9), kg, 5);
+setTimeout(location.reload(), 5000)
+//alert("Finalizaste la serie");
 /*Reiniciar todo */
 
 

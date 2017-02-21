@@ -48,7 +48,12 @@ contenedor.innerHTML= texto;
 /*Aca va el codigo a hacer, segun sea*/
 })
 }
+var now = new Date();
+var fecha= now.toLocaleDateString()
 
+	todo_bd_muestra(fecha);
+
+	setTimeout(hola, 0.1)
 function hola(){
 	var hola= document.getElementById("h1");
 	var now = new Date();
@@ -57,9 +62,3 @@ var fecha= now.toLocaleDateString()
 //$("#h1").text("asdf")
 	
 }
-var now = new Date();
-var fecha= now.toLocaleDateString()
-
-	todo_bd_muestra(fecha);
-
-	setTimeout(hola, 0.1)

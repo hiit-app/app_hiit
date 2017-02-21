@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<script src="storage.js"></script>
+	<script src="jquerymobile/jquery.mobile.custom.js"></script>
+	<script src="jquerymobile/jquery.mobile.custom.structure.css"></script>
+	<script src="jquerymobile/jquery.mobile.custom.theme.css"></script>
+	 <script type="text/javascript" src =
+ "http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+ <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="muestra_datos_websql.js"></script>
+ <link rel="stylesheet" href="jquery_mios.css">
+ <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>	
+
+<div data-role="page" id="testpage">
+
+	<div data-role="header">
+		<h1 id="h1" ></h1>
+		<a href="index.php" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
+
+
+		<a href="#" id="fechas" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-icon-calendar">Fechas</a>
+		
+		<input type="hidden" data-role="date" id="datepicker">
+		<div ></div>
+ 
+<script>
+$(document).ready(function(){
+var pickerOpts = {
+ dateFormat: "dd/m/yy"
+ };
+$( "#datepicker" ).datepicker(pickerOpts);//crea datepicker
+
+
+$("#peo").hide(); //esconder boton
+
+
+$("a").click(function(){
+$("#peo").fadeIn(3000);//se aparece el boton
+	$( "#datepicker" ).datepicker("show");//se muestra el datepicker
+
+	
+
+
+})
+
+
+
+$("#peo").click(function(){//cambia la tabla segun la feche seleccionada
+	
+	
+	var hola=$("#datepicker").val();
+
+	todo_bd_muestra(hola);
+	var contenedor= document.getElementById("contenedor");
+	contenedor.innerHTML=""
+	console.log(hola)
+	var titulo= document.getElementById("h1");
+	titulo.innerHTML=hola;
+	$(this).hide(3000);
+})
+
+})
+
+
+</script>
+
+		<!--<div data-role="navbar">
+			<ul>
+				<li><a href="#" class="ui-btn-active ui-state-persist">Menu item 1</a></li>
+				<li><a href="#">Menu item 2</a></li>
+				<li><a href="#">Menu item 3</a></li>
+			</ul>
+		</div>-->
+	</div><!-- /header -->
+<div id="peo">
+<input type="button" value="Ir Fecha" id="peo" style="">
+</div>
+  <table data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke">
+         <thead>
+           <tr class="ui-bar-d">
+            
+             <th data-priority="1">Ejercicio</th>
+             <th data-priority="1">Series</th>
+             <th data-priority="1"><abbr title="Rotten Tomato Rating">KG Entreno</abbr></th>
+             <th data-priority="1">KG Activacion</th>
+           </tr>
+         </thead>
+         <tbody id="contenedor">
+          
+           
+          
+         </tbody>
+       </table>
+<input type="text" id="table">
+</div>
+</div>
+
+</body>
+</html>

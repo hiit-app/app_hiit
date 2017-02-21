@@ -1,0 +1,187 @@
+hr{
+  size:1px;
+  opacity: 0.1;
+}
+  input[type="number"] {
+padding: 4px;
+width: 100px;
+border: 1px solid #000;
+background: #fff;
+display:inline;
+-ms-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+
+
+input[type="number"]:hover {
+  
+
+outline: 3px solid rgba(127,127,127,0.5);
+
+}
+
+/*
+
+
+*/
+
+	div.task {
+margin: 8px 4px;
+}
+div.task h3 {
+border: 1px solid #ff6600;
+background: #ff7f2a;
+color: white;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+margin: 0;
+padding: 8px;
+font-size: 0.8em;
+}
+div.task p {
+margin: 0;
+background: #e6e6e6;
+border-left: 1px solid #b3b3b3;
+border-right: 1px solid #b3b3b3;
+padding: 8px;
+}
+p.task-due label {
+font-weight: bold;
+width: 70px;
+float: left;
+}
+ul.task-actions {
+background: #b3b3b3;
+border: 1px solid #b3b3b3;
+color: white;
+padding: 8px;
+-webkit-border-bottom-left-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+margin: 0;
+list-style-type: none;
+}
+ul.task-actions li a {
+
+text-decoration: none;
+font-weight: bold;
+font-size: 0.8em;
+}
+ul.task-actions li.right {
+padding: 4px 0 0 0;
+}
+.right {
+float: right;
+}
+ul.buttons {
+margin: 4px 0 0 0;
+padding: 0;
+list-style-type: none;
+}
+ul.buttons li {
+margin: 4px 4px 10px 4px;
+}
+ul.buttons li a {
+display: block;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0,
+#b3b3b3), color-stop(0.4, #666666), color-stop(1.0, #333333));
+color: white;
+text-decoration: none;
+padding: 8px;
+text-align: center;
+-webkit-box-shadow: 0 2px 2px #333333;
+-webkit-border-radius: 6px;
+}
+
+/*
+
+*/
+
+ #rm{
+  	padding-top: 0;
+  	margin-top: -70px;
+  }
+ h4{
+   line-height: 150px;
+}
+.Menu_ejercicio_seleccionado_parte_de_arriba {
+text-align: center;
+
+color:white;
+    height: 28%;
+    background-image: url("images/entreno2.jpg");
+    background-color: #148;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+    margin: 0px;
+}
+
+#agregar_escala{
+	height:72%;
+	
+	background-image: url("images/entreno2.jpg");
+}
+
+
+
+
+
+
+/*aca agrego meno dropdown */
+.dropdown {
+      display: inline-block;
+      position: relative;
+      color:black;
+    }
+
+    .dropdown-label {
+      padding: 0.5em 1.5em;
+      border: 1px solid #ccc;
+      background-color: #eee;
+      color:black;
+    }
+
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 2.1em;
+      min-width: 100%;
+      background-color: #eee;
+      color:black;
+    }
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      color:black;
+    }
+
+    .submenu {
+      padding-left: 0;
+      margin: 0;
+      list-style-type: none;
+      border: 1px solid #999;
+      color:black;
+    }
+
+    .submenu > li + li {
+      border-top: 1px solid #999;
+      color:black;
+    }
+
+    .submenu > li > a {
+      display: block;
+      padding: 0.5em 1.5em;
+      background-color: #eee;
+      color: black;
+      text-decoration: none;
+      color:black;
+    }
+
+    .submenu > li > a:hover {
+      background-color: #fff;
+      color:black;
+    }

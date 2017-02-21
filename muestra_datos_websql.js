@@ -3,10 +3,7 @@ function dbError(e) {
 }
 
 
-function todo_bd_muestra(date){
-
-	
-	
+function todo_bd_muestra(date){	
 db = window.openDatabase("db12", "1", "Database 1", 5*1024*1024);
 
  db.transaction(function(tx) {
@@ -48,12 +45,16 @@ contenedor.innerHTML= texto;
 /*Aca va el codigo a hacer, segun sea*/
 })
 }
+
 var now = new Date();
 var fecha= now.toLocaleDateString()
 
-	todo_bd_muestra(fecha);
+	//todo_bd_muestra(fecha);
 
-	setTimeout(hola, 0.1)
+	setTimeout(hola, 100);
+	setTimeout(todo_bd_muestra(fecha), 2000)
+
+
 function hola(){
 	var hola= document.getElementById("h1");
 	var now = new Date();

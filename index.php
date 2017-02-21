@@ -104,7 +104,7 @@ init_start();*/
 <li><a href="consulting-clinic.html" class="escala_esfuerzo">Remo</a></li>
 <li><a href="on-call.html" class="escala_esfuerzo">Press Francés</a></li>
 <li><a href="development.html" class="escala_esfuerzo">Tricep Polea</a></li>
-<li><a href="http://www.oreilly.com" class="escala_esfuerzo">Hombro </a></li>
+<li><a href="https://www.oreilly.com" class="escala_esfuerzo">Hombro </a></li>
 </ul>
 </div>
 </div>
@@ -122,7 +122,7 @@ init_start();*/
 <li><a href="consulting-clinic.html" class="escala_esfuerzo">Zancada</a></li>
 <li><a href="on-call.html" class="escala_esfuerzo">Cuadriceps</a></li>
 <li><a href="development.html" class="escala_esfuerzo">Femorales</a></li>
-<li><a href="http://www.oreilly.com" class="escala_esfuerzo">Gemelos</a></li>
+<li><a href="https://www.oreilly.com" class="escala_esfuerzo">Gemelos</a></li>
 </ul>
 </div>
 </div>

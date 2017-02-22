@@ -1,8 +1,26 @@
 var CACHE_NAME = 'cache_hiit5';
 var CACHED_URLS = [
   './',
-  "storage_ordenado.html"
- 
+  "storage_ordenado.html",
+ "images/entreno1.jpg",
+     "images/entreno2.jpg",
+     "images/entreno3.jpg",
+     "images/hiit.144.png",
+     "images/hiit.196.png",
+     "images/hiit.36.png",
+     "images/hiit.48.png",
+     "images/hiit.72.png",
+     "images/hiit.96.png",
+  "bootstrap-3.3.7-dist/js/bootstrap.min.js",
+        "bootstrap-3.3.7-dist/js/bootstrap.js",
+        "bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot",
+        "bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg",
+        "bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf",
+        "bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff",
+        "bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2",
+        "bootstrap-3.3.7-dist/css/bootstrap.min.css",
+        "bootstrap-3.3.7-dist/css/bootstrap.css",
+        "bootstrap-3.3.7-dist/css/bootstrap-theme.css"
   
 ];
 

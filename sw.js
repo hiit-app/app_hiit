@@ -4,6 +4,8 @@ var CACHED_URLS = [
   "storage_ordenado.html",
  "images/entreno1.jpg",
   "modalpopup.php",
+  "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js",
+  "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css",
      "percepcion.css",
      "percepcion.js",
      "sw_app.js",

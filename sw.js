@@ -1,4 +1,4 @@
-var CACHE_NAME = 'cache_hiit5';
+var CACHE_NAME = 'cache_hiit6';
 var CACHED_URLS = [
   './',
   "storage_ordenado.html",

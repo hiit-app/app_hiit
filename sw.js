@@ -23,7 +23,7 @@ var CACHED_URLS = [
      "sw_app.js",
      "percepcion.php",
      "header.php",
-        
+        "index.php",
         "manifest.json",
         "bootstrap-3.3.7-dist/js/bootstrap.min.js",
         "bootstrap-3.3.7-dist/js/bootstrap.js",

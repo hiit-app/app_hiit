@@ -31,7 +31,8 @@ var CACHED_URLS = [
         "bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2",
         "bootstrap-3.3.7-dist/css/bootstrap.min.css",
         "bootstrap-3.3.7-dist/css/bootstrap.css",
-        "bootstrap-3.3.7-dist/css/bootstrap-theme.css"
+        "bootstrap-3.3.7-dist/css/bootstrap-theme.css",
+  'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'
   
 ];
 
